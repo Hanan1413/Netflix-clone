@@ -11,7 +11,8 @@ function selectItem(e) {
 	// Grab content item from DOM
 	const tabContentItem = document.querySelector(`#${this.id}-content`);
 	// Add show class
-	tabContentItem.classList.add('show');
+	    tabContentItem.classList.add("show");
+
 }
 
 // Remove bottom borders from all tab items
